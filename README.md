@@ -27,9 +27,9 @@ key = '&APPID=ENTER YOUT KEY';
     $npm server.js
 
 ### Result (input)
-<img src='screenshots/form.png>
+<img src='screenshots/form.png'>
 
 ### Result (output)
-<img src='screenshots/result.png>
+<img src='screenshots/result.png'>
 
 
