@@ -2,7 +2,7 @@
 
 ## Project 3 - Weather Journal App (Front End Developer Udacity Nanodegree)
 
-### created with HTML, CSS, Javascript (Vanilla), and Node.js
+### Created with HTML, CSS, Javascript (Vanilla), and Node.js
 
 
 ### Project Objective
