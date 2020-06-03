@@ -20,7 +20,7 @@ To get the project up and running I followed these steps:
 
 ## --- Getting started ---
 
-### Add your API key:
+### Add your API key in the app.js file:
 key = '&APPID=ENTER YOUT KEY';
 
 ### install node.js on your machine and then start the server at port number: 3000
