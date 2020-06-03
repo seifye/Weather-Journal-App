@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Weather Journal App</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a83dba7890.js"></script>
+</head>
+<body>
+	<div id="app">
+  		<div class="headline">
+    		<h1 class="headline-heading">Weather Journal App
+    			<p id="description"> Getting weather data from the OpenWeather API </p>
+    		</h1>
+  		</div>
+  		<form class="app-form" autocomplete="off">
+    		<div class="holder zip">
+      			<label for="zip" class="zip-label">What is your zip code? <span>(For US only) </span></label>
+      			<input type="text" class="std-input" id="zip" required placeholder="Enter your zip code here!">
+    		</div>
+    		<div class="holder feel">
+      			<label for="feelings">How are you feelings today?</label>
+          		<textarea class="std-input" id="feelings" required placeholder="Enter your feelings here!"></textarea>
+    		</div>
+    		<button id="generate" type="submit"> Generate </button>
+  		</form>
+  	</div>
+  	<div class="entry" id="entry">
+        <h2 class="data_required">Output data: </h2>
+    	<div id="entryHolder">
+        	<div class="data date">
+        		<i class="fas fa-calendar-day fa-3x data_icon"></i>
+        		<div class="req" id="date"></div>
+      		</div>
+      		<div class="data temp">
+            	<i class="fas fa-cloud-sun-rain fa-3x data_icon"></i>
+        		<div class="req" id="temp"></div>
+      		</div>
+      		<div class="data feelings">
+            	<i class="fas fa-user-alt fa-3x data_icon"></i>
+        		<div class="req" id="content"> </div>
+      		</div>
+    	</div>
+  	</div>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
