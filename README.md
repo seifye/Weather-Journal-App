@@ -18,7 +18,7 @@ To get the project up and running I followed these steps:
 1. Created async functions to fetch weather data and store it on my local server. 
 1. Set up a function that updated UI dynamically.
 
-## --- Getting started ---
+## Getting started
 
 ### Add your API key in the app.js file:
     key = '&APPID=ENTER YOUT KEY';
